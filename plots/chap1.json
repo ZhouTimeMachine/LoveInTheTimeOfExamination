@@ -7,29 +7,107 @@
         {
             "dialogueID" : 0,
             "speaker" : 0,
-            "content" : "中233中abc，哈d",
+            "content" : "（离夏学期考试周21天的一节数分课上，因为前一天晚上赶概率论作业赶到很迟，我昏昏欲睡。忽然感觉右边有人推了推我——）",
+            "jump" : -1,
+            "finish" : 0,
             "branch" : []
         },
         {
             "dialogueID" : 1,
-            "speaker" : 0,
-            "content" : "起身穿衣洗漱，正准备出门时无意中瞟到于子诺夜里两点钟发来的微信消息。",
+            "speaker" : 1,
+            "content" : "快醒醒，老师叫你起来回答问题了！",
+            "jump" : -1,
+            "finish" : 0,
             "branch" : []
         },
         {
             "dialogueID" : 2,
-            "speaker" : 2,
-            "content" : "满怀激动地打开查看，只看到短短一行字：“明晚有点事，可能去不了了”，还跟了一个蠢蠢的表情，不过蛮可爱的。我在思考该怎么回复她：",
+            "speaker" : 8,
+            "content" : "（睁开眼睛定睛一看，金火辉老师正半笑不笑地看着我，边上于子诺投来三分担忧三分抱趣的眼神。可恶，面对疾风吧！这道题我一定要写出来！）",
+            "jump" : -1,
+            "finish" : 0,
             "branch" : [
                 {
-                    "condition" : "回复：哦好的，没事",
-                    "branchPos" : 0
+                    "condition" : "超时",
+                    "branchPos" : 3
                 },
                 {
-                    "condition" : "回复：嘤嘤嘤",
-                    "branchPos" : 1
+                    "condition" : "填入了错误答案",
+                    "branchPos" : 5
                 }
             ]
+        },
+        {
+            "dialogueID" : 3,
+            "speaker" : 0,
+            "content" : "（靠，写不出来，淦）",
+            "jump" : -1, 
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 4,
+            "speaker" : 8,
+            "content" : "你先坐下再想想吧。",
+            "jump" : 6,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 5,
+            "speaker" : 8,
+            "content" : "是这个答案吗？",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 6,
+            "speaker" : 8,
+            "content" : "其实我们这就是我们刚刚讲过题目的变式啊！如果观察它的奇偶性……",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 7,
+            "speaker" : 1,
+            "content" : "啊呀啊呀，你不行啊~",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 8,
+            "speaker" : 0,
+            "content" : "啊对对对……[我看向了坐在左边的俞东远]",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 9,
+            "speaker" : 3,
+            "content" : "你一下子想不到也很正常，老师也少讲了一部分，其实这道题从我们做题的角度来看这么入手更自然……",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 10,
+            "speaker" : 0,
+            "content" : "啊对对对……",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
+        },
+        {
+            "dialogueID" : 10,
+            "speaker" : 0,
+            "content" : "可恶，太丢脸了，尤其是在于子诺面前……一定要卧薪尝胆，下次在她面前展示一下我的真正实力！",
+            "jump" : -1,
+            "finish" : 0,
+            "branch" : []
         }
     ]
 }
